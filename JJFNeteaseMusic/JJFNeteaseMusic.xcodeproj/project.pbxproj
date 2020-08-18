@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E548EB8024EA5246000183D3 /* JJCustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548EB7F24EA5246000183D3 /* JJCustomNavigationController.swift */; };
 		E55A66B924E67F94000CB2A3 /* JJFNeteaseMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55A66B824E67F94000CB2A3 /* JJFNeteaseMusicApp.swift */; };
 		E55A66BB24E67F94000CB2A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55A66BA24E67F94000CB2A3 /* ContentView.swift */; };
 		E55A66BD24E67F97000CB2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55A66BC24E67F97000CB2A3 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E548EB7F24EA5246000183D3 /* JJCustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJCustomNavigationController.swift; sourceTree = "<group>"; };
 		E55A66B524E67F94000CB2A3 /* JJFNeteaseMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJFNeteaseMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55A66B824E67F94000CB2A3 /* JJFNeteaseMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJFNeteaseMusicApp.swift; sourceTree = "<group>"; };
 		E55A66BA24E67F94000CB2A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				E55A66B824E67F94000CB2A3 /* JJFNeteaseMusicApp.swift */,
 				E55A66BA24E67F94000CB2A3 /* ContentView.swift */,
+				E548EB7F24EA5246000183D3 /* JJCustomNavigationController.swift */,
 				E55A66BC24E67F97000CB2A3 /* Assets.xcassets */,
 				E55A66C124E67F97000CB2A3 /* Info.plist */,
 				E55A66BE24E67F97000CB2A3 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E55A66BB24E67F94000CB2A3 /* ContentView.swift in Sources */,
+				E548EB8024EA5246000183D3 /* JJCustomNavigationController.swift in Sources */,
 				E55A66B924E67F94000CB2A3 /* JJFNeteaseMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +271,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"JJFNeteaseMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = WSSN499SLU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = JJFNeteaseMusic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -276,8 +282,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.snailgames.JJFNeteaseMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = UniversalSnailDev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,8 +296,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"JJFNeteaseMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = WSSN499SLU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = JJFNeteaseMusic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -297,8 +307,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.snailgames.JJFNeteaseMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = UniversalSnailDev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
